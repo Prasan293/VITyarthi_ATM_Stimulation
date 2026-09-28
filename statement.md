@@ -6,7 +6,7 @@ Project Name: ATM Simulation App
 
 ### Problem Description
 
-The common industry practice while writing basic console applications in classes is to keep all code under one single python file. While acceptable for smaller projects, such approach may lead to readability issues for bigger programs. This project aims to address this exact problem. Under this project, the code is split into 5 different files with each file's code being dedicated to a specific part of the application. This improves maintainability as a bug in the withdrawal function now only requires checking of the withdraw.py file.
+The common industry practice while writing basic console applications in classes is to keep all code under one single python file. While acceptable for smaller projects, such approach may lead to readability issues for bigger programs. This project aims to address this exact problem. Under this project, the code is split into different files with each file's code being dedicated to a specific part of the application. This improves maintainability as a bug in the withdrawal function now only requires checking of the withdraw.py file.
 
 Another industry-level problem that this project touches on is the robustness of the code. When writing applications that take input from users, there is a possibility of receiving invalid input data. Failure to implement proper exception handling mechanisms will result in the program crashing with an unhandled exception error. This project will focus on the implementation of protective measures in order to prevent such crashes.
 
@@ -20,7 +20,7 @@ The scope of this project is to develop a proof-of-concept prototype of a bank A
 
 • The program will be able to share variable values between scripts (i.e. update the account balance across different files)
 
-• The program will prevent outsiders from withdrawing large sums of cash
+• The program will prevent outsiders from withdrawing more than their balance
 
 • The program will perform denomination arithmetic checks
 
