@@ -16,6 +16,13 @@ When you deposit money, it asks how much. You must type a positive number. If yo
 
 When you want to take cash out, it checks two things. It checks if you have enough money. If you try to take Rs. 60000 when you only have Rs. 50000, it prints a message saying you have insufficient balance. It also checks the cash notes. A real ATM only has certain bills. So my code uses a modulo math check. It makes sure your amount can be divided by 100 evenly. If you type 350, it tells you that it is invalid. You can only ask for things like 100, 200, 500, or 1000.
 
+##Technologies Used
+
+Python 3
+Command-Line Interface (CLI)
+Git
+GitHub
+
 ## How to Run It
 
 It is very easy to start this application on your computer.
